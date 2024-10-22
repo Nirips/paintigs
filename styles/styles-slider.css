@@ -1,0 +1,65 @@
+
+p {
+    color: black;
+}
+section .container-fluid .carousel, .col-lg-12 {
+    margin-left: 1;
+}
+
+.carousel-inner{
+    border: 5px solid #000000;
+    border-radius: 10px;
+}
+
+
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(130, 128, 128);
+}
+
+.navbar-brand img {
+    width: 50px;
+    border-radius: 10px;
+}
+
+.navbar-toggler {
+    background-color: gray;
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #CAFBFF 0%, #D64774 100%);
+}
+
+.card {
+    color: rgb(0, 0, 0);
+    background: white;
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(0, 0, 0);
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: noone;
+    }
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

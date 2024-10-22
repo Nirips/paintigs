@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.great-vibes-regular {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: #555;
+    color: white;
+    cursor: pointer;
+}
+
+.banner {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: url('banner.jpg') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h3 {
+    font-size: 4rem; /* Увеличение размера шрифта заголовка */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-item {
+    display: inline-block;
+    margin: 20px;
+    border: 5px solid #ddd; /* Цвет рамки */
+    border-radius: 10px; /* Закругление углов рамки */
+    padding: 10px; /* Отступы внутри рамки */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
+    transition: transform 0.2s; /* Анимация при наведении */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px; /* Закругление углов изображения */
+}
+.gallery-picter {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.add-to-cart {
+    background-color: #28a745; /* Цвет фона кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границу */
+    border-radius: 5px; /* Закругление углов */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer; /* Указатель мыши при наведении */
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Цвет фона при наведении */
+}
+
+.add-to-cart:active {
+    background-color: #1e7e34; /* Цвет фона при нажатии */
+    transform: translateY(2px); /* Небольшое движение кнопки вниз */
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
